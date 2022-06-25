@@ -6,9 +6,9 @@ export const handlerLike = photoLike => {
 	const toggleLike = data => {
 		console.log('data: ', data);
 		if (data.photo.liked_by_user) {
-			photoLike.classList.remove('photo_like_o');
+			photoLike.classList.remove('photo__like_o');
 		} else {
-			photoLike.classList.add('photo_like_o');
+			photoLike.classList.add('photo__like_o');
 		}
 		photoLike.likedByUser = data.photo.liked_by_user;
 		photoLike.textContent = data.photo.likes;
