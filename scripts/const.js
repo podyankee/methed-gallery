@@ -4,6 +4,6 @@ export const API_URL_TOKEN = 'https://unsplash.com/oauth/token';
 export const API_URL_AUTH = 'https://unsplash.com/oauth/authorize';
 export const ACCESS_KEY = 'O7inG2RLRN9hk5zk6p4AEpzB1RJbyO3tKvXbAEWTSIk';
 export const SECRET_KEY = '1B7eLZ2HyOkrMqq__camZxh50cWDenY1kJqCS4aLVkU';
-export const REDIRECT_URI = 'http://127.0.0.1:5500';
+export const REDIRECT_URI = 'https://methed-image-gallery.netlify.app';
 export const RESPONSE_TYPE = 'code';
 export const SCOPE = 'public read_user read_photos write_likes';
